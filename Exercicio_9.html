@@ -1,0 +1,88 @@
+<html>
+<head>
+    <title>Lista Aldo</title>
+</head>
+<body>
+    <form name="meu_form">
+ 
+        <h1>Entre em contato</h1>
+   Pesquisa no Google:
+  <input type="search" name="googlesearch">
+        <p class="nome">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nomeid" placeholder="Tiago Vale" required="required" name="nome" />
+        </p>
+        <p class="fone">
+            <label for="fone">Telefone:</label>
+            <input type="text" id="foneid" placeholder="(xx)xx-xx-xx-xx" name="fone" />
+            
+ 
+        </p>
+        <p>
+                <form action="/action_page.php">
+                Qual sua cor favorita?
+                <input type="color" name="favcolor" value="#ff0000">
+            </form>
+        </p>
+        <p>
+            <label for="email">Email:</label>    
+            <input type="email" id="emailid" placeholder="fulano@mail.com" name="email" />
+            
+        </p>
+    <p>
+            <form> Qual sua data de aniversario? 
+            <input type="password" name="psw"><br>
+            Quantos irmãos voce tem?
+            <input type="number" name="quantity" min="1" max="99999"><br>
+            Qual e sua idade?
+            <input type="number" name="points" min="0" max="100" step="10" value=""><br>  
+            Qual seu nivel de amor pelo seus irmãos?
+            <input type="range" name="points" min="0" max="10"><br>
+            Que horas são?
+            <input type="time" name="usr_time"><br>
+            URL da sua pagina   
+            <input type="url" name="homepage"><br>
+            Que semanas estamos?
+            <input type="week" name="week_year">  <br>      
+<form>
+        <input type="checkbox" name="vehicle1" value="Bike"> Eu tenho uma bicicleta<br>
+        <input type="checkbox" name="vehicle2" value="Car"> Eu tenho um carro<br>
+  Que dia você ganhou esse presente ?
+  <input type="date" name="bday"><br>
+  Qual a data de inicio da sua faculdade:
+  <input type="date" name="bday" max="2019-12-31"><br>
+  Qual a data de termino da sua faculdade:
+  <input type="date" name="bday" min="2019  -01-02"><br>
+  Foto do contrato: <input type="file" name="myFile"><br>
+  Qual mês e ano do seu nascimento?
+  <input type="month" name="bdaymonth"
+
+
+
+</form>
+        </form>
+
+
+    </p>
+
+<form>
+  <input type="radio" name="gender" value="male" checked> Homen<br>
+  <input type="radio" name="gender" value="female"> Mulher<br>
+  <input type="radio" name="gender" value="other"> Outros<br>
+</form>
+
+
+        <p>
+            <textarea placeholder="Deixe sua opni&atilde;o"></textarea>
+        </p>
+        <p class="submit">
+            <input type="submit" onclick="Enviar();" value="Enviar" />
+             <input type="reset">
+             <input type="button" onclick="alert('Olá Mundo')" value="Click em mim">
+
+        </p>
+
+    </form>
+
+</body>
+</html>
